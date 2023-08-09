@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Sono:wght@200&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f55fa3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  padding: 30px 0;
+  align-items: center;
+}
+
+img {
+  width: 90px;
+  height: 83.15px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  color: white;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+.select-cake {
+  all: unset;
+  margin-top: 5px;
+  margin-right: 100px;
+  padding: 1px 25px;
+  background-color: yellow;
+  border-radius: 100px;
+  width: 100px;
+  height: 40px;
+  color: #d9176f;
+  font-weight: 1000;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  nav ul {
+    margin: 20px 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .select-cake {
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}

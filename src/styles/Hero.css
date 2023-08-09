@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Sono:wght@200&display=swap");
+
+* {
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 1519.59px;
+  height: 760px;
+  background-color: #f11a7b;
+}
+
+.hero-content {
+  padding-top: 10px;
+}
+
+.name-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  font-weight: 1000;
+  color: white;
+}
+
+.name-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  font-weight: 1000;
+  color: white;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Image 1 */
+.img-1 {
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 280px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* Image 2 */
+.img-2,
+.img-1 {
+  position: absolute;
+  width: 240px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.img-2 {
+  margin-right: 200px;
+  padding-top: 20px;
+  width: 200px;
+  height: 210px;
+}
+
+/*image-3 */
+.img-3,
+.img-1 {
+  position: absolute;
+  width: 240px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.img-3 {
+  margin-left: 240px;
+  padding-top: 20px;
+  width: 200px;
+  height: 210px;
+}
+.img-4 {
+  margin-right: 220px;
+  height: 170px;
+  width: 170px;
+}
+
+.img-5 {
+  padding-top: 8px;
+  height: 160px;
+  width: 160px;
+}
+
+.select-cake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+}
+
+.button-2 {
+  padding-top: 80px;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
