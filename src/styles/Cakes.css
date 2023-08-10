@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Sono:wght@200&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cake {
+  width: 1519.59px;
+  height: 2000px;
+  background-color: white;
+}
+
+.cake-top {
+  padding-top: 70px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.cake-variations {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.cake img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+h2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  text-align: center;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 65px;
+  background-color: white;
+  border-radius: 15px;
+  border: 4px solid yellow;
+  width: 150px;
+  height: 40px;
+  color: #d9176f;
+  font-weight: bold;
+}
+
+.services {
+  background-color: #d9176f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 76.5%;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  gap: 50px;
+}
+
+.services-container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.icon h3 {
+  padding-top: 45px;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 0px;
+}
+
+.icon p {
+  text-align: left;
+  color: white;
+}

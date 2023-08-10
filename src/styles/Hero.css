@@ -96,17 +96,11 @@ main {
   width: 160px;
 }
 
-.select-cake {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 110px;
-}
-
 .button-2 {
   padding-top: 80px;
   padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 110px;
 }

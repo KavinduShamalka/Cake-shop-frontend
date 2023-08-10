@@ -1,6 +1,4 @@
 import "../styles/Hero.css";
-
-
 import Navigation from "./Navigation";
 const Hero = () => {
   return (
