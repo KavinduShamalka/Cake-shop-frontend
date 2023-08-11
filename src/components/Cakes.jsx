@@ -1,6 +1,4 @@
 import "../styles/Cakes.css";
-import About from "./About";
-import Footer from "./Footer";
 
 const Cake = () => {
   return (
@@ -80,8 +78,6 @@ const Cake = () => {
           </div>
         </div>
       </div>
-      <About />
-      <Footer />
     </div>
   );
 };

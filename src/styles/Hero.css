@@ -9,8 +9,9 @@ body {
 
 main {
   width: 1519.59px;
-  height: 760px;
+  height: 650px;
   background-color: #f11a7b;
+  margin: 0 auto;
 }
 
 .hero-content {

@@ -1,9 +1,8 @@
 import "../styles/Hero.css";
-import Navigation from "./Navigation";
+
 const Hero = () => {
   return (
     <main className="hero">
-      <Navigation />
       <div className="hero-content">
         <h1 className="name-1">Delicious</h1>
         <h1 className="name-2">Home Made Cakes</h1>

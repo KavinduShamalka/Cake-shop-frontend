@@ -10,8 +10,9 @@ body {
 
 .cake {
   width: 1519.59px;
-  height: 2000px;
+  height: 1400px;
   background-color: white;
+  margin: 0 auto;
 }
 
 .cake-top {

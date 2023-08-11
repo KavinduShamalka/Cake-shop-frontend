@@ -1,5 +1,8 @@
 footer {
   height: 300px;
+  width: 1518px;
+  margin: 0 auto;
+  background-color: #f11a7b;
 }
 .footer {
   display: flex;
@@ -9,6 +12,7 @@ footer {
   height: 72px;
   padding: 80px 0;
   align-items: center;
+  background-color: #f11a7b;
 }
 
 .footer ul {

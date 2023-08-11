@@ -1,49 +1,53 @@
-/* .content {
-  height: 650px;
-} */
-
 .About-container {
+  height: 900px;
+  margin: 0 auto;
+  width: 100%;
   background-color: white;
-  height: 1150px;
 }
 
-.content {
-  height: 1050px
+.About-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
 }
 
-.one img {
-  width: 450px;
-  height: 660px;
-  margin-left: 190px;
-  border-radius: 50px;
-  position: absolute;
-  top: 2300px;
+.About-img {
+  display: flex;
 }
 
-.two img{
-  width: 230px;
-  height: 300px;
-  border-radius: 25px;
-  position: absolute;
-  bottom: -2340px;
-  margin-left: 230px;
+.img-12 img {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border-radius: 40px;
 }
 
-.three img{
-  width: 300px;
-  height: 230px;
-  border-radius: 25px;
-  position: absolute;
-  bottom: -2220px;
-  margin-left: 510px;
+.img-13 img {
+  position: relative;
+  right: 360px;
+  top: 490px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
 }
 
-.about-text {
-  margin-left: 920px;
-  margin-top: 95px;
-  width: 450px;
-  height: 400px;
-  position: absolute; 
+.img-14 img {
+  position: relative;
+  right: 140px;
+  top: 450px;
+  border-radius: 20px;
+  height: 200px;
+  width: 250px;
+}
+
+.img-13,
+.img-14 {
+  width: 0px;
+}
+
+.About-text {
+  width: 570px;
 }
 
 .button-order {
@@ -64,5 +68,3 @@
   color: #d9176f;
   font-weight: bold;
 }
-
-
